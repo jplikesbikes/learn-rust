@@ -17,3 +17,16 @@ cargo build
 cargo test
 cargo run
 ```
+
+### New projects
+First create a new repository on [github](https://github.com/new)
+```
+git clone git@github.com:jplikesbikes/learn-rust.git newrepos
+cd newrepos
+git remote rename origin upstream
+git remote add origin git@github.com:jplikesbikes/newrepos
+git push -u origin master
+```
+Update the Cargo.toml name.
+Update the readme.
+Your good to go!
